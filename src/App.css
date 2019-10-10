@@ -1,22 +1,20 @@
-.App {
-  text-align: center;
+#root {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(34, 31, 31);
+  font-family: "Lexend Exa", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+.center-box {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
